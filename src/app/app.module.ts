@@ -15,6 +15,9 @@ import { RegistrerComponent } from './login/register.component';
 import { LoginComponent } from './login/login.component';
 
 
+import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -27,7 +30,8 @@ import { LoginComponent } from './login/login.component';
     BrowserModule,
     AppRoutingModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
