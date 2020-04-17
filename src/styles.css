@@ -12,3 +12,12 @@
     width: 150px;
     margin-bottom: 20px;
 }
+
+.img-perfil {
+    width: 60px;
+    height: 60px;
+}
+
+.img-perfil img {
+    width: 100%;
+}
